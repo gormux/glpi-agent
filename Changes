@@ -35,6 +35,9 @@ netdiscovery/netinventory:
 proxy-server-plugin:
 * fix #461: Fix XML content-type support for inventories sent by android agent
 
+toolbox:
+* fix #254: Add credential to iprange not working after adding first one
+
 packaging:
 * Update MacOSX packages to use OpenSSL 3.1.3 & zlib 1.3
 * Install basic-authentication-server-plugin.cfg plugin default configuration on debian
