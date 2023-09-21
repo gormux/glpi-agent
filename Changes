@@ -38,6 +38,11 @@ netdiscovery/netinventory:
 * Enhanced Cisco devices support
 * Enhanced Citrix devices support
 
+esx:
+* Refactoring to share more code between task & glpi-esx script and to support netscan
+* Added --debug option support to glpi-esx
+* fixed & updated unittests
+
 proxy-server-plugin:
 * fix #461: Fix XML content-type support for inventories sent by android agent
 
